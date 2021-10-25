@@ -1,0 +1,1542 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+ul,ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
+
+
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+/* ------------- plagin part start------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------- plagin part end------------------------------ */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                     header part start
+----------------------------------------------------- */
+
+header{
+    width: 100%;
+ padding: 15px 0;
+    background:#0f2f44;
+}
+
+
+
+
+header .iteam-1{
+  color: #fff;
+ 
+}
+
+
+
+header .iteam-1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+header .iteam-2{
+    color: #fff;
+    text-align: right;
+  }
+  
+  
+  header .iteam-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+
+/* ------------------------------------------------
+                     header part end
+----------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------
+                    navbar part start
+----------------------------------------------------- */
+
+
+
+nav ul li a{
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  color: black !important;
+  padding: 25px 10px !important;
+  transition: .4s;
+
+  
+
+}
+
+
+nav ul li{
+  margin-right: 30px !important;
+}
+
+
+
+
+nav ul li a:hover{
+  color:#ffc712 !important;
+  background:rgba(255, 200, 18, 0.1);
+}
+
+
+
+nav .shan{
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid#999999;
+border-radius: 50%;
+text-align: center;
+line-height: 30px;
+color: #999999;
+  
+
+}
+
+
+
+
+
+
+nav .sky{
+ 
+  width: 30px;
+  height: 30px;
+  border: 1px solid#999999;
+border-radius: 50%;
+text-align: center;
+line-height: 30px;
+color: #999999;
+transition: .4s;
+  
+
+}
+
+
+
+nav .sky:hover{
+  background: #0f2f44;
+  color: #ffc712;
+}
+
+
+
+nav .collapse{
+  opacity: 0;
+}
+
+
+
+nav .don{
+  opacity: 1;
+ 
+}
+
+
+nav .shan{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                    navbar part end
+----------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------
+                    banner part start
+----------------------------------------------------- */
+
+#banner-part{
+  background: url(../images/banner.png)no-repeat center;
+  background-size: cover;
+padding: 100px 0;
+  margin-top: 50px;
+  
+}
+
+
+
+#banner-part h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #0f2f44;
+}
+
+
+
+
+
+
+#banner-part h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #0f2f44;
+}
+
+
+
+
+
+
+
+
+#banner-part h2{
+font-family: 'Open Sans', sans-serif;
+font-size: 32px;
+font-weight: 300;
+color: #aab0d8;
+letter-spacing: 14px;
+
+}
+
+
+
+#banner-part p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 470px;
+  line-height: 25px;
+}
+
+
+
+
+#banner-part a{
+  padding: 10px 19px;
+  background: #8484bf;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #8484bf;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  display: inline-block;
+  transition: .4s;
+}
+
+
+#banner-part a:hover{
+  background: rgba(255, 255, 255, 0.5);
+  color:#8484bf ;
+}
+
+
+#banner-part .bird{
+margin-left: 20px;
+color: #8484bf;
+width: 50px;
+height: 50px;
+background: #fff;
+border-radius: 50%;
+text-align: center;
+line-height: 50px;
+transition: .4s;
+}
+
+#banner-part .bird:hover{
+  color: #fff;
+  background: #8484bf;
+}
+
+
+
+
+/* ------------------------------------------------
+                    banner part end
+----------------------------------------------------- */
+
+
+/* ------------------------------------------------
+                  about part start
+----------------------------------------------------- */
+
+
+#about-part{
+  margin-top: 100px;
+}
+
+
+
+
+#about-part .left{
+
+}
+
+
+
+
+#about-part .left p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #0f2f44;
+}
+
+
+
+#about-part .left h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  font-weight: 300;
+  color: #0f2f44;
+}
+
+
+
+
+
+#about-part .left p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+#about-part .left .nav{
+  margin-top: 20px;
+}
+
+
+
+#about-part .left .nav ul li{
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+
+
+
+#about-part .left  a{
+  display: inline-block;
+  text-transform: capitalize;
+  color: black;
+  margin-right: 20px;
+  background: white;
+  padding: 10px 25px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08); 
+  box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08);
+transition: .4s;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+
+
+#about-part .left  a:hover{
+  background: #ffc712;
+}
+
+
+
+
+
+/* ------------------------------------------------
+                  about part end
+----------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------
+                  skill part start
+----------------------------------------------------- */
+
+
+#skill-part{
+  margin-top: 100px;
+}
+
+
+
+
+#skill-part .kok{
+margin-top: 50px;
+}
+
+#skill-part .title-op{
+  text-align: right;
+}
+
+
+
+#skill-part .title-op p{
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+}
+
+
+#skill-part .title-op h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #0f2f44;
+  text-transform: capitalize;
+}
+
+
+
+#skill-part .line p{
+  text-align: right;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #0f2f44;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                  skill part end
+----------------------------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                  service part start
+----------------------------------------------------- */
+
+#service-part{
+  margin-top: 100px;
+  background: #f5f5f5;
+ padding: 100px 0;
+
+}
+
+
+
+#service-part .slick-track{
+  margin: 50px 0px;
+}
+
+
+
+
+#service-part .title{
+  text-align: center;
+}
+
+
+
+
+
+#service-part .title p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+#service-part .title h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #0f2f44;
+}
+
+
+
+#service-part .service-slider .service{
+
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#service-part .service-slider{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#service-part  .service{
+  display: flex;
+ 
+
+}
+
+
+#service-part .photo{
+  width: 30%;
+
+  background: #ffffff;
+}
+
+
+
+
+#service-part .bbb{
+  width: 70%;
+  
+  background:#eeeeee;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+
+
+#service-part .bbb h3{
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #0f2f44;
+}
+
+
+
+
+
+
+
+#service-part .bbb p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#service-part .service{
+  position: relative;
+  
+}
+
+
+#service-part .service .overlay{
+  width:0;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#0f2f44;
+  transition: .6s;
+  text-align: center;
+  opacity: 0;
+
+
+}
+
+
+#service-part .service .overlay i{
+  color: black;
+  font-size: 20px;
+width: 40px;
+height: 40px;
+background: #ffffff;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+position: relative;
+bottom: -9px;
+left: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#service-part .service:hover .overlay{
+  width: 100%;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+#service-part .service .overlay h3{
+  color: #fff;
+  text-transform: capitalize;
+ 
+}
+
+
+
+
+#service-part .service .overlay .img img{
+margin: 0 auto;
+margin-top: 8px;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                  service part end
+----------------------------------------------------- */
+
+
+/* ------------------------------------------------
+                  our portfolio part start
+----------------------------------------------------- */
+
+#port-part{
+  margin-top: 100px;
+}
+
+
+
+
+#port-part .title{
+  text-align: center;
+}
+
+
+
+
+#port-part .title p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f2f44;
+}
+
+
+#port-part .title h3{
+
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #0f2f44;
+  
+}
+
+
+
+
+#port-part .port{
+ 
+  margin: 0 20px;
+  margin-top: 50px;
+}
+
+
+
+#port-part .port .img img{
+  width: 100%;
+}
+ 
+
+
+#port-part .port .img{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+#port-part .port .img h3{
+  width: 100%;
+  position: absolute;
+bottom: 0;
+left: 0;
+
+
+ background:#fff; 
+text-transform: capitalize;
+font-family: 'Open Sans', sans-serif;
+  font-size: 20;
+  font-weight: 500;
+  color: #0f2f44;
+  padding: 10px 0;
+  text-align: center; 
+  opacity: 0;
+  transition: .4s;
+}
+
+
+
+
+
+#port-part .port:hover .img h3{
+  opacity: 1;
+}
+ 
+
+.prev{
+  width: 50px;
+  height: 50px;
+  background:#f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 49%;
+  left: 33%;
+  transform: translateY(50%,50%);
+  z-index:1;
+  transition: .4s;
+ 
+}
+
+
+#port-part .prev:hover{
+  background: #ffc712;
+}
+
+
+
+.next{
+  width: 50px;
+  height: 50px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 49%;
+  right: 33%;
+  transform: translateY(50%,50%);
+ 
+  transition: .4s;
+ 
+}
+
+
+#port-part .next:hover{
+  background: #ffc712;
+}
+
+
+
+#port-part .button{
+ text-align: center;
+  margin-top: 100px;
+  color: #000000;
+ 
+}
+
+#port-part .button a{
+  color: #000000;
+  display: inline-block;
+  background: white;
+  padding: 10px 25px;
+  text-transform: capitalize;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08); 
+  box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08);
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 20px;
+  border-radius: 4px;
+  transition: .4s;
+  
+  
+}
+
+
+
+
+#port-part .button a:hover{
+  background: #ffc712;
+}
+
+
+
+
+
+
+/* ------------------------------------------------
+                  our portfolio part end
+----------------------------------------------------- */
+
+/* ------------------------------------------------
+                  our testimonial part start
+----------------------------------------------------- */
+
+
+#testi-part{
+  margin-top: 100px;
+  background:#f5f5f5;
+ padding: 50px 0;
+}
+
+
+
+
+#testi-part .title{
+  text-align: center;
+}
+
+
+
+#testi-part .title p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f2f44;
+}
+
+
+
+#testi-part .title h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #0f2f44;
+}
+
+
+
+#testi-part .testi{
+
+  margin: 0 15px;
+}
+
+
+#testi-part .testi .main{
+  display: flex;
+  margin-top: 50px;
+}
+
+
+
+
+
+#testi-part .testi .main .img{
+  width: 35%;
+ 
+}
+
+
+
+#testi-part .testi .main .img img{
+  width: 100%;
+}
+
+
+
+
+
+#testi-part .testi .main .details{
+  width: 65%;
+  background:#e9e9e9;
+  padding-left: 20px;
+
+}
+
+
+
+#testi-part .testi .main .details p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f2f44;
+  margin-top: 30px;
+  width: 323px;
+}
+
+#testi-part .testi .main .details h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0f2f44;
+  margin-top: 50px;
+}
+
+
+
+
+#testi-part .testi .main .details h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2f44;
+  margin-top: 10px;
+  
+  
+}
+
+
+
+
+
+
+.sagor{
+  width: 50px;
+  height: 50px;
+  background:#ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: -11px;
+   transform: translateY(50%,-11px); 
+  z-index:1;
+  transition: .4s;
+ 
+}
+
+
+
+#testi-part .sagor:hover{
+  background: #ffc712;
+}
+
+
+
+
+.nipa{
+  width: 50px;
+  height: 50px;
+  background:#ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: -11px;
+   transform: translateY(50%,-11%); 
+
+  transition: .4s;
+ 
+}
+
+
+
+#testi-part .nipa:hover{
+  background: #ffc712;
+}
+
+
+
+
+
+/* ------------------------------------------------
+                  our testimonial part end
+----------------------------------------------------- */
+
+
+/* ------------------------------------------------
+                  our blog part start
+----------------------------------------------------- */
+
+#blog-part{
+  margin-top: 100px;
+}
+
+
+
+
+
+
+#blog-part .title{
+  text-align: center;
+}
+
+
+
+#blog-part .title p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f2f44;
+}
+
+
+#blog-part .title h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #0f2f44;
+}
+
+
+
+
+
+#blog-part .blog{
+
+  margin: 0 20px;
+  margin-top: 50px;
+}
+
+
+#blog-part .blog .img img{
+  width: 100%;
+}
+ 
+
+
+
+ #blog-part .blog{
+   padding: 20px;
+   background:#eeeeee;
+   padding-bottom: 10px;
+   transition: .4s;
+   box-sizing: border-box;
+   border-radius: 5px;
+ 
+ } 
+   
+   
+
+ #blog-part .blog:hover{
+   background: #0f2f44;
+  
+ }
+
+
+
+ #blog-part .blog:hover h5{
+   color: #fff;
+ }
+
+
+
+
+ #blog-part .blog:hover p{
+  color: #fff;
+}
+
+
+
+
+
+#blog-part .blog:hover a{
+  color: #fff;
+}
+
+
+
+
+
+#blog-part .blog:hover i{
+  color: #fff;
+}
+
+
+
+
+ #blog-part .blog h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777777;
+ padding-top: 15px;
+
+
+ }
+
+
+
+
+ #blog-part .blog p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222222;
+  padding-top: 20px;
+
+ 
+ }
+
+
+
+ #blog-part .blog a{
+   display: inline-block;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #777777;
+    text-transform: capitalize;
+    padding-top: 15px;
+  
+    
+ }
+
+
+
+
+ #blog-part .blog i{
+  margin-left: 10px;
+ }
+
+
+
+ #blog-part .button-op{
+   text-align: center;
+   margin-top: 70px;
+   
+ }
+
+ #blog-part .button-op a{
+   display: inline-block;
+   text-transform: capitalize;
+   background: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #0f2f44;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08); 
+    box-shadow: 0px 10px 13px -7px #000000, -3px 2px 9px 4px rgba(0,0,0,0.08);
+    transition: .4s;
+
+ }
+
+ #blog-part .button-op a:hover{
+   background: #ffc712;
+ }
+
+
+
+
+
+
+ .river{
+  width: 50px;
+  height: 50px;
+  background:#f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:33%;
+   transform: translateY(50%,-11px); 
+  z-index:1;
+  transition: .4s;
+ 
+}
+
+
+
+
+
+#blog-part .river:hover{
+  background: #ffc712;
+}
+
+
+
+
+
+
+
+.pond{
+  width: 50px;
+  height: 50px;
+  background:#f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right:33%;
+   transform: translateY(50%,-11px); 
+ 
+  transition: .4s;
+ 
+}
+
+
+
+
+#blog-part .pond:hover{
+  background: #ffc712;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                  our blog part end
+----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------
+                  footer part start
+----------------------------------------------------- */
+
+
+footer{
+  margin-top: 100px;
+  background: #f5f5f5;
+padding: 100px 0;
+
+position: relative;
+}
+
+
+
+
+
+
+
+
+#gotop {
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute !important;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  background: #ffc712 !important;
+  color: rgb(255, 255, 255);
+  width: 70px !important;
+  height: 70px !important;
+}
+
+
+
+
+
+
+
+footer .dev p{
+  margin-top: 25px;
+ 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
+footer .dev .icon{
+  margin-top: 30px;
+}
+
+
+
+
+footer .dev .icon i{
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #0f2f44;
+  text-align: center;
+  line-height: 40px;
+  transition: .4s;
+}
+
+
+
+footer .dev .icon i:hover{
+  background: #0f2f44;
+  color: #fff;
+}
+
+
+footer .info .rider{
+  position: relative;
+  margin-top: 20px;
+}
+
+footer .info .rider i{
+  font-size: 24px;
+}
+
+
+
+
+footer .faka-div{
+  margin-top: 32px;
+}
+
+
+
+footer .info .rider p{
+  position: absolute;
+  top: 0;
+  left: 45px;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+footer .train{
+  margin-top: 20px;
+  position: relative;
+}
+
+
+footer .train p{
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+
+
+footer .train i{
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer .phone{
+ 
+  position: relative;
+
+}
+
+
+
+footer .phone h5{
+  position: absolute;
+  top: 39px;
+  left: 40px;
+}
+
+
+
+
+footer .phone h6{
+  position: absolute;
+  top: 68px;
+  left: 40px;
+}
+
+
+footer .phone i{
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-size: 24px;
+}
+
+
+
+footer .nock h3{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+footer .nock ul{
+  margin-top: 20px;
+}
+
+
+
+footer .nock ul li{
+  margin-top: 20px;
+  color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    transition: .4s;
+}
+
+
+
+footer .nock ul li:hover{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+
+footer .ppp h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+footer .ppp .img{
+  width: 111%;
+  margin-top: 20px;
+}
+
+
+footer .ppp .img img{
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+                  footer part end
+----------------------------------------------------- */
